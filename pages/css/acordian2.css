@@ -1,0 +1,51 @@
+*{margin:0; padding:0;}
+body {
+    /*background: lightslategrey;*/
+    background: white;
+}
+.acordian2 {
+    background: #004050;
+    margin: 3px;
+    height: 450px;
+    display: inline-block;
+    box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6),
+                0 0 200px 1px rgba(255,255,255,0.5);
+}
+.acordian2 h3 {
+    font-size: 16px;
+    line-height: 34px;
+    padding: 0 10px;
+    color: white;
+    cursor: pointer;
+    background: #003040;
+    background: linear-gradient(#003040, #002535);
+}
+.acordian h3:hover{
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+.acordian2 {
+    font-size: 16px;
+    margin-left: 5px;
+}
+.acordian2 li {
+    list-style-type: none;
+}
+.acordian2 ul ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 27px;
+    display: block;
+    padding: 0 15px; 
+    transition: all 0.10s;
+}
+.acordian2 ul ul li a:hover{
+    background: #003545;
+    border-left: 5px solid lightgreen;
+}
+.acordian2 ul ul {
+    display: none;
+}
+.acordian2 li.active ul {
+    display: block;
+}
